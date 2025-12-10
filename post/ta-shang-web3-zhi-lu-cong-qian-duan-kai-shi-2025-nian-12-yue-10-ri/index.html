@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>踏上web3之旅，从前端开始！-2025年12月10日 | Khan的Blog</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://0xKhan-web3.github.io/favicon.ico?v=1765382429838">
+<link rel="stylesheet" href="https://0xKhan-web3.github.io/styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="通过我和chatgpt老师的深入交流，我认识到了：Web3就是前端+智能合约那既然我要进军web3了，那这两块我都得拿下啊
+
+不过我可没时间慢慢听网课，大概速览了一下菜鸟教程，再和chatgpt老师聊聊天，得出的重点如下：
+前端最基础的就是..." />
+    <meta name="keywords" content="" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://0xKhan-web3.github.io">
+        <img src="https://0xKhan-web3.github.io/images/avatar.png?v=1765382429838" class="site-logo">
+        <h1 class="site-title">Khan的Blog</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+          <a class="social-link" href="https://github.com/0xKhan-web3" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+        
+      
+        
+          <a class="social-link" href="https://x.com/0xKhan_web3" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      从居委会走入web3，在学习中期待新可能。
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://0xKhan-web3.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">踏上web3之旅，从前端开始！-2025年12月10日</h2>
+            <div class="post-date">2025-12-10</div>
+            
+            <div class="post-content" v-pre>
+              <p>通过我和chatgpt老师的深入交流，我认识到了：<strong>Web3就是前端+智能合约</strong>那既然我要进军web3了，那这两块我都得拿下啊</p>
+<!-- more -->
+<p>不过我可没时间慢慢听网课，大概速览了一下菜鸟教程，再和chatgpt老师聊聊天，得出的重点如下：<br>
+<strong>前端最基础的就是html+css+js，html和css都是控制外观的代码，说白了就是对于页面外观的一种精确描述，基本上不涉及到啥逻辑。逻辑都在js里呢。</strong></p>
+<h1 id="html速览速记">html速览速记</h1>
+<p><strong>html解决的是页面上有什么东西的问题。</strong><br>
+开头必须得有<!DOCTYPE html>，这就是html5的公式。<br>
+下面是html标签包着body和head标签，head里有个什么utf8，好像和什么字符编码什么玩意有关系，我看不太懂就也当成公式了，然后head里还有个title标签，这个就是控制你标签页的显示内容，完咯body里就是你网页里正经有点啥东西，什么按钮文本框标题啥的，具体都有啥查查菜鸟教程吧，我感觉我说的很明白，好好看看这段话再看看下面代码块，html不用学了（我自己也没写一行代码呢，别信我）。</p>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;菜鸟教程(runoob.com)&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;h1&gt;我的第一个标题&lt;/h1&gt;
+
+&lt;p&gt;我的第一个段落。&lt;/p&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<h1 id="css速览速记">css速览速记</h1>
+<p><strong>css解决的是页面上的东西在哪，啥色，啥形状，多大的问题。</strong><br>
+注意了，你得在html的head里加个</p>
+<pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot; /&gt;
+</code></pre>
+<p>你的css文件才能有用。</p>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://0xKhan-web3.github.io/post/hello world！/">
+                  <h3 class="post-title">
+                    第一篇博客，Hello World！-2025年12月9日
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
